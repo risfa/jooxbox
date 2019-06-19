@@ -1,0 +1,51 @@
+
+
+@media (min-width: 769px) 
+{
+	body
+	{
+		background:url('../../images/login_bg.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 768px) 
+{
+	body
+	{
+		background:url('../../images/login_bg.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+.boxT
+{
+	background-color:rgba(245, 245, 245, 0.93);
+	padding-bottom:50px;
+	padding-top:20px;
+	border-radius:8px;
+}
+
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.or
+{
+    color: #666666;
+    background-color: #f5f5f5;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 110px;
+}

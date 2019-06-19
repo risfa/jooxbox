@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://jukebox5d.com/</loc>
+</url>
+<url>
+  <loc>https://jukebox5d.com/app/index.php/login</loc>
+</url>
+<url>
+  <loc>https://jukebox5d.com/en/</loc>
+</url>
+<url>
+  <loc>https://jukebox5d.com/app/index.php/register</loc>
+</url>
+<url>
+  <loc>https://jukebox5d.com/app/index.php/forgotPassword</loc>
+</url>
+<url>
+  <loc>https://jukebox5d.com/app/</loc>
+</url>
+</urlset>

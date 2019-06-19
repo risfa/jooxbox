@@ -1,0 +1,51 @@
+
+
+@media (min-width: 769px) 
+{
+	body
+	{
+		background:url('../images/bg_test5.jpg') no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 768px) 
+{
+	body
+	{
+		background:url('../images/bg_test5.jpg') repeat-y fixed;
+		-webkit-background-size: cover auto;
+		-moz-background-size: cover auto;
+		-o-background-size: cover auto;
+		background-size: cover auto;
+	}
+}
+
+.boxT
+{
+	background-color:rgba(245, 245, 245, 0.93);
+	padding-bottom:50px;
+	padding-top:20px;
+	border-radius:8px;
+}
+
+.or-box
+{
+    position: relative;
+    border-top: 1px solid #dfdfdf;
+    padding-top: 20px;
+    margin-top:20px;
+}
+.or
+{
+    color: #666666;
+    background-color: #f5f5f5;
+    position: absolute;
+    text-align: center;
+    top: -8px;
+    width: 40px;
+    left: 110px;
+}

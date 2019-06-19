@@ -1,0 +1,573 @@
+.box-search
+{
+	box-shadow:0px 0px 5px #888;
+}
+
+.box:hover
+{
+	background-color:#f5f5f5;
+}
+
+.header-menu-jukebox{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  color:#00aeff;
+  text-align:center;
+  font-weight:700;
+  font-family: 'Lato', sans-serif;
+}
+
+
+a:hover > .header-menu-jukebox 
+{
+	background-color:#f8f8f8;
+	border-bottom:1px solid #00aeff; 
+}
+
+.active-box
+{
+	background-color:#f5f5f5;
+	border-bottom:1px solid #00aeff;
+}
+
+.header-content-jukebox{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.header-content-jukebox>hr{
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+.icon-playlist
+{
+	color:#888;
+	width:15%;
+	font-size:22px
+}
+
+.icon-playlistMusic
+{
+	color:#888;
+	width:5%;
+	font-size:22px
+}
+
+.icon-playlist:hover
+{
+	color:#c40000;
+	cursor:pointer;
+}
+
+.song-content
+{
+	font-size:14px;	
+}
+
+.header-content-jukebox > .most-played-list:first-child
+{
+	padding-top:0px;
+}
+
+.most-played-footer
+{
+	text-align:center;
+	font-weight:700;
+	color:#00aeff;
+}
+
+.how-footer
+{
+	padding:8px;
+	color:#00aeff;
+	font-weight:700;
+}
+
+.how-footer:hover
+{
+	background-color:#f5f5f5;
+}
+
+.how-footer-powered
+{
+	padding:8px;
+	color:#00aeff;
+	font-weight:700;
+}
+
+.sidebar-sidebar
+{
+	padding-right:0px;
+	padding-left:0px;
+	position:fixed;
+	width:300px;
+	min-height:100%
+}
+
+.sidebar-chat
+{
+	padding-right:0px;
+	padding-left:0px;
+	position:fixed;
+	width:300px;
+	min-height:100%;
+	margin-left:858px;
+}
+
+.center-bar
+{
+	padding-right:0px;
+	padding-left:0px;
+	margin-left:300px;
+	width:560px;
+}
+
+.fixed-header
+{
+	z-index:15;
+	top:17px;
+}
+
+.border-none-right
+{
+	border-right:none;
+}
+
+.chat-row
+{
+	padding:5px 0px 5px 0px;
+	width:100%;
+	
+}
+
+.chat-row > .img-user
+{
+	padding:10px;
+}
+
+.chat-row > .chat-user
+{
+	padding:2px 10px 2px 2px;
+	word-wrap:break-word;
+	
+	margin-bottom:10px;
+}
+
+.chat-row > .chat-user > .title 
+{
+	font-size:14px;
+	color: #d5d5d5;
+}
+
+.chat-row > .chat-user > p 
+{
+	font-size:11px;
+	color: #888;
+}
+
+.chat-row > .chat-user > p > small 
+{
+	font-size:10px;
+	color: #d5d5d5;
+}
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+}
+.input-group-addon.success {
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 184, 92);
+    border-color: rgb(76, 174, 76);
+}
+.input-group-addon.info {
+    color: rgb(255, 255, 255);
+    background-color: rgb(57, 179, 215);
+    border-color: rgb(38, 154, 188);
+}
+.input-group-addon.warning {
+    color: rgb(255, 255, 255);
+    background-color: rgb(240, 173, 78);
+    border-color: rgb(238, 162, 54);
+}
+.input-group-addon.danger {
+    color: rgb(255, 255, 255);
+    background-color: rgb(217, 83, 79);
+    border-color: rgb(212, 63, 58);
+}
+
+.firstRank {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #ffc726;
+}
+
+.secondRank {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #dddddc;
+}
+
+.thirdRank {
+	border-width: 3px;
+	border-style: solid;
+	border-color: #d98028;
+}
+
+
+.playlist > tbody > tr:first-child
+{
+	background-color:#3E5C76/*#2274A5*/;
+	/*background: -webkit-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:    -moz-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:     -ms-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:      -o-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:         linear-gradient(90deg, #360033 10%, #0b8793 90%);*/
+              
+	color:white;
+}
+
+.playlist > tbody > .buttonLayer
+{
+	background-color:#f5f5f5;	
+	/*background: -webkit-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:    -moz-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:     -ms-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:      -o-linear-gradient(90deg, #360033 10%, #0b8793 90%); 
+	background:         linear-gradient(90deg, #360033 10%, #0b8793 90%);*/
+              
+	color:white;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .image-view-user
+{
+	width:31%;
+	padding:10px 15px 15px 15px;
+	vertical-align:top
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .image-view-user
+{
+	width:28%;
+	padding:10px 15px 15px 15px;
+	vertical-align:top
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail
+{
+	padding-right:15px
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail
+{
+	padding-right:15px
+}
+
+.playlist > tbody > tr > td > .table-playlist
+{
+	height:100%;
+	width:100%;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail
+{
+	width:100%;
+	height:100%;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td  > .username-user
+{
+	font-size:9px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td  > .username-user
+{
+	font-size:11px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td  > span > .share-button
+{
+	font-size:10px;
+	color:#888;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td  > span > .share-button
+{
+	font-size:12px;
+	color:#f5f5f5;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .song-desc
+{
+	font-size:11px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .song-desc
+{
+	font-size:12px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .source-desc
+{
+	padding-top:5px;
+	font-size:11px;
+	vertical-align:bottom;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .source-desc
+{
+	padding-top:5px;
+	font-size:11px;
+	vertical-align:bottom;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > .soundcloud
+{
+	color:#ff7e00;
+	vertical-align:top;
+	font-size:23px;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > .soundcloud
+{
+	color:#fff;
+	vertical-align:top;
+	font-size:33px;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > .youtube
+{
+	color:#c90000;
+	vertical-align:top;
+	font-size:23px;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > .youtube
+{
+	color:#fff;
+	vertical-align:top;
+	font-size:33px;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .button-box
+{
+	vertical-align:middle;
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > .button-box
+{
+	vertical-align:middle;
+}
+
+.playlist > tbody > tr > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > div > .button-right-skip-love
+{
+	
+    font-size: 4px;
+    
+}
+
+.playlist > tbody > tr:first-child > td > table > tbody > tr > .view-user-detail > .table-playlist-detail > tbody > tr > td > div > .button-right-skip-love
+{
+	
+    font-size: 4px;
+    
+}
+
+#search-icon:hover
+{
+	color:#d9534f;
+}
+
+
+/*Float button*/
+
+.float-position
+{
+	position:fixed;
+	bottom:70px;
+	right:25px;
+}
+
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 65px;
+  height: 65px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+  box-shadow:1px 1px 4px 1px #888;
+}
+/*End float button*/
+
+.heart
+{
+	color:#d20000
+}
+
+.skip
+{
+	color:#00aeff;
+}
+
+.search-m
+{
+	position:fixed;
+	top:51px;
+	width:100%;
+	background-color:#404040;
+	height:50px;
+	z-index:2000;
+	display:none;	
+}
+
+.overlay2
+{
+    background-color: #000;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    filter: alpha(opacity = 70); /* IE7 & 8 */
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1999;
+	display:none;
+}
+
+.bottom-chat
+{
+	position:fixed;
+	bottom:50px;
+	
+}
+
+.navbar-nav>li>a
+{
+	font-family: 'Oswald', sans-serif;
+}
+
+.appHeader
+{			
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #444;		  
+  color:#fff;		  		 
+  font-family: 'Lato', sans-serif;
+}
+
+.buttonLayerTd
+{
+	width:25%;
+	font-size:30px;
+	text-align:center;
+	padding:5px;
+	color:#888;
+}
+
+.listTd
+{
+	border-top:1px solid #ddd;
+}
+
+.listImage
+{
+	width:25%;
+	padding: 10px 15px 10px 15px;
+	vertical-align:top;
+}
+
+.floatingBtn
+{
+	background-color:#00aeff;
+	color:#fff;
+}
+
+.floatingBtn:hocer
+{
+	background-color:#AFD2E9;
+}
+
+.button-share-row{
+	color:#888;
+	
+}
+
+.button-source-youtube-row{
+	color:#888;
+}
+
+.button-source-soundcloud-row{
+	color:#888;
+}
+
+.button-skip-row{
+	color:#888;
+}
+
+.button-love-row{
+	color:#888;
+}
+
+.button-share-row:hover{
+	color:#EE7621;
+	cursor:pointer;
+}
+
+.button-source-youtube-row:hover{
+	color:#DC143C;
+	cursor:pointer;
+}
+
+.button-source-soundcloud-row:hover{
+	color:#ff7700;
+	cursor:pointer;
+}
+
+.button-skip-row:hover{
+	color:#00aeff;
+	cursor:pointer;
+}
+
+.button-love-row:hover{
+	color:#dc143c;
+	cursor:pointer;
+}
+
+.button-delete-row:hover{	
+	cursor:pointer;
+}
+
+.followers-text
+{
+	font-size:10px;
+	color:#BABABA;
+}
